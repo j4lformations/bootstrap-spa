@@ -19,3 +19,56 @@ body {
   font-weight: 100;
   line-height: 1.7;
 }
+
+#app-header, #app-carousel {
+  position: relative;
+  width: 100%;
+}
+
+#app-header {
+  height: 70vh;
+}
+
+#app-carousel {
+  height: 100%;
+}
+#app-carousel .carousel-inner {
+  height: inherit;
+}
+#app-carousel .carousel-inner .carousel-item {
+  height: inherit;
+}
+#app-carousel .carousel-inner .carousel-item__1, #app-carousel .carousel-inner .carousel-item__2, #app-carousel .carousel-inner .carousel-item__3 {
+  position: inherit;
+  height: inherit;
+  background-size: cover;
+  background-position: bottom;
+}
+#app-carousel .carousel-inner .carousel-item__1 {
+  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/1.jpg);
+}
+#app-carousel .carousel-inner .carousel-item__2 {
+  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/2.jpg);
+}
+#app-carousel .carousel-inner .carousel-item__3 {
+  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/3.jpg);
+}
+#app-carousel .carousel-inner .carousel-item .carousel-caption {
+  position: absolute;
+  top: 40%;
+  right: 15%;
+  bottom: 1.25rem;
+  left: 15%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  color: #fff;
+  text-align: center;
+}
+#app-carousel .carousel-inner .carousel-item--title {
+  font-family: "Bungee Inline", cursive;
+  font-size: 6.4rem;
+}
+#app-carousel .carousel-inner .carousel-item--sub-title {
+  font-size: 2.4rem;
+  text-transform: uppercase;
+}
