@@ -1,0 +1,32 @@
+#equipe{
+  margin-top: 2*$default-font-size;
+  margin-bottom: 2*$default-font-size;
+
+  .row {
+    margin-top: 3*$default-font-size;
+    margin-bottom: 3*$default-font-size;
+  }
+
+  position: relative;
+
+  .card {
+    border: none;
+    border-radius: 0;
+  }
+
+  .card-title {
+    font-weight: 500;
+    font-size: 1.5*$default-font-size;
+    text-transform: capitalize;
+  }
+  .card-job {
+    font-weight: 300;
+    font-size: 1*$default-font-size;
+    text-transform: capitalize;
+  }
+
+  .card-text {
+    text-align: justify;
+    padding: 1*$default-font-size;
+  }
+}

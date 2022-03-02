@@ -259,11 +259,39 @@ body {
 }
 
 #portfolio {
-  margin-top: 4.8rem;
+  margin: 4.8rem 1.6rem;
 }
 #portfolio .portfolio__img img {
   transition: all 0.8s ease-in-out;
 }
 #portfolio .portfolio__img img:hover {
   transform: scale(1.2) rotate(-5deg);
+}
+
+#equipe {
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  position: relative;
+}
+#equipe .row {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+#equipe .card {
+  border: none;
+  border-radius: 0;
+}
+#equipe .card-title {
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+#equipe .card-job {
+  font-weight: 300;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+#equipe .card-text {
+  text-align: justify;
+  padding: 1.6rem;
 }
