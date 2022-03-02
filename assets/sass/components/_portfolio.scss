@@ -1,0 +1,14 @@
+#portfolio {
+  margin-top: 3*$default-font-size;
+  .portfolio {
+    &__img {
+      img {
+        transition: all .8s ease-in-out;
+
+        &:hover {
+          transform: scale(1.2) rotate(-5deg);
+        }
+      }
+    }
+  }
+}

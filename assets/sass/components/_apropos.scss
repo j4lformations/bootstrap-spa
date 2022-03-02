@@ -1,5 +1,5 @@
 #apropos {
-  position: relative;
+  //position: relative;
   background-image: $default-bg-gradiant, url(../images/apropos/bg-2.jpg);
   background-size: cover;
   background-position: bottom;
@@ -27,21 +27,19 @@
       justify-content: space-around;
       text-align: left;
       margin-left: 5*$default-font-size;
-
-      &__progress {
-      }
     }
-
 
     .progress {
       margin-bottom: 2*$default-font-size;
       height: 10%;
       font-size: 1*$default-font-size;
+      transition: width 3s ease-in-out;
 
       &-bar {
         background-color: rgb(2, 143, 204);
         padding: .3rem;
-        animation: progesbar 4s ease 1s 1 normal forwards;
+
+        animation: progesbar 1s ease .5s 1 normal forwards;
       }
     }
   }
