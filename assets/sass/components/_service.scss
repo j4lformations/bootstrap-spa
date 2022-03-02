@@ -19,6 +19,11 @@
       margin: 0 auto 1.5*$default-font-size;
       padding: 1.5*$default-font-size;
       border-radius: .2*$default-font-size;
+      transition: all .3s ease-in-out;
+
+      &:hover {
+        background-color: $gray-700;
+      }
     }
 
     border-radius: 0;

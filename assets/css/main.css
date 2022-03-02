@@ -1,11 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Roboto+Serif:wght@100;300;500;600;700;800&display=swap");
+
 html {
-  font-size: 62.5%;
-  box-sizing: inherit;
+    font-size: 62.5%;
+    box-sizing: inherit;
 }
 
 body {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 /*
@@ -13,232 +14,264 @@ font-family: 'Bungee Inline', cursive;
 font-family: 'Roboto Serif', sans-serif;
 */
 @keyframes gaucheVersDroite {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    transform: translateX(-48px);
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    animation-timing-function: ease-in;
-    transform: translateX(-26px);
-  }
-  65% {
-    animation-timing-function: ease-in;
-    transform: translateX(-13px);
-  }
-  82% {
-    animation-timing-function: ease-in;
-    transform: translateX(-6.5px);
-  }
-  93% {
-    animation-timing-function: ease-in;
-    transform: translateX(-4px);
-  }
-  25%, 55%, 75%, 87%, 98% {
-    animation-timing-function: ease-out;
-    transform: translateX(0px);
-  }
-  100% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateX(0px);
-  }
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateX(-48px);
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateX(-26px);
+    }
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateX(-13px);
+    }
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateX(-6.5px);
+    }
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateX(-4px);
+    }
+    25%, 55%, 75%, 87%, 98% {
+        animation-timing-function: ease-out;
+        transform: translateX(0px);
+    }
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateX(0px);
+    }
 }
+
 @keyframes basVersHaut {
-  0% {
-    animation-timing-function: ease-in;
-    opacity: 1;
-    transform: translateY(45px);
-  }
-  24% {
-    opacity: 1;
-  }
-  40% {
-    animation-timing-function: ease-in;
-    transform: translateY(24px);
-  }
-  65% {
-    animation-timing-function: ease-in;
-    transform: translateY(12px);
-  }
-  82% {
-    animation-timing-function: ease-in;
-    transform: translateY(6px);
-  }
-  93% {
-    animation-timing-function: ease-in;
-    transform: translateY(4px);
-  }
-  25%, 55%, 75%, 87% {
-    animation-timing-function: ease-out;
-    transform: translateY(0px);
-  }
-  100% {
-    animation-timing-function: ease-out;
-    opacity: 1;
-    transform: translateY(0px);
-  }
+    0% {
+        animation-timing-function: ease-in;
+        opacity: 1;
+        transform: translateY(45px);
+    }
+    24% {
+        opacity: 1;
+    }
+    40% {
+        animation-timing-function: ease-in;
+        transform: translateY(24px);
+    }
+    65% {
+        animation-timing-function: ease-in;
+        transform: translateY(12px);
+    }
+    82% {
+        animation-timing-function: ease-in;
+        transform: translateY(6px);
+    }
+    93% {
+        animation-timing-function: ease-in;
+        transform: translateY(4px);
+    }
+    25%, 55%, 75%, 87% {
+        animation-timing-function: ease-out;
+        transform: translateY(0px);
+    }
+    100% {
+        animation-timing-function: ease-out;
+        opacity: 1;
+        transform: translateY(0px);
+    }
 }
+
 @keyframes progesbar {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
+
 body {
-  color: #212529;
-  font-size: 1.6rem;
-  font-family: "Roboto Serif", sans-serif;
-  font-weight: 100;
-  line-height: 1.7;
+    color: #212529;
+    font-size: 1.6rem;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 100;
+    line-height: 1.7;
 }
 
 .section {
-  color: #495057;
-  text-align: center;
+    color: #495057;
+    text-align: center;
 }
+
 .section__title {
-  text-transform: uppercase;
-  font-family: "Bungee Inline", cursive;
-  font-size: 3.2rem;
-  margin-bottom: 1.6rem;
+    text-transform: uppercase;
+    font-family: "Bungee Inline", cursive;
+    font-size: 3.2rem;
+    margin-bottom: 1.6rem;
 }
+
 .section__sub-title {
-  font-size: 2.08rem;
+    font-size: 2.08rem;
 }
 
 #app-header, #app-carousel {
-  position: relative;
-  width: 100%;
+    position: relative;
+    width: 100%;
 }
 
 #app-header {
-  height: 70vh;
+    height: 70vh;
 }
 
 #app-carousel {
-  height: 100%;
+    height: 100%;
 }
+
 #app-carousel .carousel-inner {
-  all: inherit;
+    all: inherit;
 }
+
 #app-carousel .carousel-inner .carousel-item {
-  height: inherit;
+    height: inherit;
 }
+
 #app-carousel .carousel-inner .carousel-item__1, #app-carousel .carousel-inner .carousel-item__2, #app-carousel .carousel-inner .carousel-item__3 {
-  all: inherit;
-  background-size: cover;
-  background-position: bottom;
+    all: inherit;
+    background-size: cover;
+    background-position: bottom;
 }
+
 #app-carousel .carousel-inner .carousel-item__1 {
-  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/1.jpg);
+    background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/1.jpg);
 }
+
 #app-carousel .carousel-inner .carousel-item__2 {
-  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/2.jpg);
+    background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/2.jpg);
 }
+
 #app-carousel .carousel-inner .carousel-item__3 {
-  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/3.jpg);
+    background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/sliders/3.jpg);
 }
+
 #app-carousel .carousel-inner .carousel-item .carousel-caption {
-  position: absolute;
-  top: 40%;
+    position: absolute;
+    top: 40%;
 }
+
 #app-carousel .carousel-inner .carousel-item--title {
-  font-family: "Bungee Inline", cursive;
-  font-size: 6.4rem;
-  animation: gaucheVersDroite 5s ease-in-out 0s 1 normal forwards;
+    font-family: "Bungee Inline", cursive;
+    font-size: 6.4rem;
+    animation: gaucheVersDroite 5s ease-in-out 0s 1 normal forwards;
 }
+
 #app-carousel .carousel-inner .carousel-item--sub-title {
-  font-size: 2.4rem;
-  text-transform: uppercase;
-  animation: basVersHaut 5s ease-in-out 0s 1 normal forwards;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    animation: basVersHaut 5s ease-in-out 0s 1 normal forwards;
 }
 
 #app-nav {
-  padding: 0 1.6rem;
-  background-color: #028fcc;
-  color: rgba(255, 255, 255, 0.8);
+    padding: 0 1.6rem;
+    background-color: #028fcc;
+    color: rgba(255, 255, 255, 0.8);
 }
+
 #app-nav .nav-item .nav-link {
-  padding: 1.6rem;
-  text-transform: capitalize;
-  font-family: "Roboto Serif", sans-serif;
-  font-weight: 300;
+    padding: 1.6rem;
+    text-transform: capitalize;
+    font-family: "Roboto Serif", sans-serif;
+    font-weight: 300;
 }
+
 #app-nav .nav-item .nav-link:hover {
-  background-color: #6ea8fe;
-  color: white;
+    background-color: #6ea8fe;
+    color: white;
 }
 
 #service {
-  margin-top: 3.2rem;
-  margin-bottom: 3.2rem;
-  position: relative;
+    margin-top: 3.2rem;
+    margin-bottom: 3.2rem;
+    position: relative;
 }
+
 #service .row {
-  margin-top: 4.8rem;
-  margin-bottom: 4.8rem;
+    margin-top: 4.8rem;
+    margin-bottom: 4.8rem;
 }
+
 #service .card {
-  border-radius: 0;
+    border-radius: 0;
 }
+
 #service .card .card__icon {
-  font-size: 4.8rem;
-  background-color: #028fcc;
-  color: white;
-  width: 40%;
-  margin: 0 auto 2.4rem;
-  padding: 2.4rem;
-  border-radius: 0.32rem;
+    font-size: 4.8rem;
+    background-color: #028fcc;
+    color: white;
+    width: 40%;
+    margin: 0 auto 2.4rem;
+    padding: 2.4rem;
+    border-radius: 0.32rem;
+    transition: all 0.3s ease-in-out;
 }
+
+#service .card .card__icon:hover {
+    background-color: #495057;
+}
+
 #service .card-title {
-  font-weight: 500;
-  font-size: 2.4rem;
-  text-transform: capitalize;
+    font-weight: 500;
+    font-size: 2.4rem;
+    text-transform: capitalize;
 }
+
 #service .card-text {
-  text-align: justify;
-  padding: 1.6rem;
+    text-align: justify;
+    padding: 1.6rem;
 }
 
 #apropos {
-  position: relative;
-  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/apropos/bg-2.jpg);
-  background-size: cover;
-  background-position: bottom;
-  background-attachment: fixed;
-  padding: 4rem;
+    position: relative;
+    background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/apropos/bg-2.jpg);
+    background-size: cover;
+    background-position: bottom;
+    background-attachment: fixed;
+    padding: 4rem;
 }
+
 #apropos .w-95 {
-  width: 95% !important;
+    width: 95% !important;
 }
+
 #apropos .w-60 {
-  width: 60% !important;
+    width: 60% !important;
 }
+
 #apropos .w-85 {
-  width: 85% !important;
+    width: 85% !important;
 }
+
 #apropos .col-md .statistique {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  text-align: left;
-  margin-left: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 8rem;
 }
+
 #apropos .col-md .progress {
-  margin-bottom: 3.2rem;
-  height: 10%;
-  font-size: 1.6rem;
+    margin-bottom: 3.2rem;
+    height: 10%;
+    font-size: 1.6rem;
 }
+
 #apropos .col-md .progress-bar {
-  background-color: #028fcc;
-  padding: 0.3rem;
-  animation: progesbar 4s ease 1s 1 normal forwards;
+    background-color: #028fcc;
+    padding: 0.3rem;
+    animation: progesbar 4s ease 1s 1 normal forwards;
 }
