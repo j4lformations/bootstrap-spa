@@ -2,7 +2,8 @@
 title: UNE SPA AVEC BOOTSTRAP 5
 ---
 
-Cet exercice a pour but de realiser une Single Page Application avec Bootstrap 5
+Cet exercice a pour but de mettre en forme une  Single Page Application avec
+Bootstrap 5
 
 Il permet notamment de mettre en oeuvre les differents acquis des cours HTML5 -
 CSS3 et Bootstrap 5
