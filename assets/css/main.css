@@ -82,6 +82,16 @@ font-family: 'Roboto Serif', sans-serif;
     transform: translateY(0px);
   }
 }
+@keyframes progesbar {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
 body {
   color: #212529;
   font-size: 1.6rem;
@@ -196,4 +206,39 @@ body {
 #service .card-text {
   text-align: justify;
   padding: 1.6rem;
+}
+
+#apropos {
+  position: relative;
+  background-image: linear-gradient(to left bottom, rgba(10, 54, 34, 0.2), rgba(20, 108, 67, 0.8)), url(../images/apropos/bg-2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding: 4rem;
+}
+#apropos .w-95 {
+  width: 95% !important;
+}
+#apropos .w-60 {
+  width: 60% !important;
+}
+#apropos .w-85 {
+  width: 85% !important;
+}
+#apropos .col-md .statistique {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+  margin-left: 8rem;
+}
+#apropos .col-md .progress {
+  margin-bottom: 3.2rem;
+  height: 10%;
+  font-size: 1.6rem;
+}
+#apropos .col-md .progress-bar {
+  background-color: #028fcc;
+  padding: 0.3rem;
+  animation: progesbar 4s ease 1s 1 normal forwards;
 }

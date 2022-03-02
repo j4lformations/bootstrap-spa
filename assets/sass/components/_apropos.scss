@@ -1,0 +1,48 @@
+#apropos {
+  position: relative;
+  background-image: $default-bg-gradiant, url(../images/apropos/bg-2.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+
+  padding: 2.5*$default-font-size;
+
+  .w-95 {
+    width: 95% !important;
+  }
+
+  .w-60 {
+    width: 60% !important;
+  }
+
+  .w-85 {
+    width: 85% !important;
+  }
+
+  .col-md {
+
+    .statistique {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      text-align: left;
+      margin-left: 5*$default-font-size;
+
+      &__progress {
+      }
+    }
+
+
+    .progress {
+      margin-bottom: 2*$default-font-size;
+      height: 10%;
+      font-size: 1*$default-font-size;
+
+      &-bar {
+        background-color: rgb(2, 143, 204);
+        padding: .3rem;
+        animation: progesbar 4s ease 1s 1 normal forwards;
+      }
+    }
+  }
+}
