@@ -90,6 +90,20 @@ body {
   line-height: 1.7;
 }
 
+.section {
+  color: #495057;
+  text-align: center;
+}
+.section__title {
+  text-transform: uppercase;
+  font-family: "Bungee Inline", cursive;
+  font-size: 3.2rem;
+  margin-bottom: 1.6rem;
+}
+.section__sub-title {
+  font-size: 2.08rem;
+}
+
 #app-header, #app-carousel {
   position: relative;
   width: 100%;
@@ -139,7 +153,7 @@ body {
 
 #app-nav {
   padding: 0 1.6rem;
-  background-color: #0d6efd;
+  background-color: #028fcc;
   color: rgba(255, 255, 255, 0.8);
 }
 #app-nav .nav-item .nav-link {
@@ -151,4 +165,35 @@ body {
 #app-nav .nav-item .nav-link:hover {
   background-color: #6ea8fe;
   color: white;
+}
+
+#service {
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+  position: relative;
+}
+#service .row {
+  margin-top: 4.8rem;
+  margin-bottom: 4.8rem;
+}
+#service .card {
+  border-radius: 0;
+}
+#service .card .card__icon {
+  font-size: 4.8rem;
+  background-color: #028fcc;
+  color: white;
+  width: 40%;
+  margin: 0 auto 2.4rem;
+  padding: 2.4rem;
+  border-radius: 0.32rem;
+}
+#service .card-title {
+  font-weight: 500;
+  font-size: 2.4rem;
+  text-transform: capitalize;
+}
+#service .card-text {
+  text-align: justify;
+  padding: 1.6rem;
 }
