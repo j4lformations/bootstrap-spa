@@ -21,7 +21,8 @@
     <!-- Le titre de la page -->
     <title>SPA - BOOTSTRAP</title>
 </head>
-<body>
+<body data-bs-spy="scroll" data-bs-target="#app-nav">
+
 <!-- Le Header -->
 <section id="app-header">
     <!-- Le carousel -->
@@ -81,42 +82,204 @@
 </section>
 
 <!-- La Navbar -->
-<nav id="app-nav" class="navbar navbar-expand-lg navbar-dark bg-primary ">
+<nav id="app-nav" class="navbar navbar-expand-lg navbar-dark sticky-top">
     <div class="container-fluid">
         <a class="navbar-brand" href="#">
             <img src="assets/images/logo.png" alt="logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mesLiensDeNavigation" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mesLiensDeNavigation"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="mesLiensDeNavigation">
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">accueil</a>
+                    <a class="nav-link active" aria-current="page" href="#app-header">accueil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">service</a>
+                    <a class="nav-link" href="#service">service</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">a propos</a>
+                    <a class="nav-link" href="#apropos">a propos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">portfolio</a>
+                    <a class="nav-link" href="#portfolio">portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">equipe</a>
+                    <a class="nav-link" href="#equipe">equipe</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">blog</a>
+                    <a class="nav-link" href="#blog">blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">contact</a>
+                    <a class="nav-link" href="#contact">contact</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
+<!-- Services -->
+<section id="service" class="bg-danger opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
+
+<!-- A propos -->
+<section id="apropos" class="bg-success opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
+
+<!-- Portfolio -->
+<section id="portfolio" class="bg-warning opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
+
+<!-- Equipe -->
+<section id="equipe" class="bg-primary opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
+
+<!-- Blog -->
+<section id="blog" class="bg-success opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="bg-warning opacity-50 text-white">
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum, modi numquam pariatur quo repellendus
+        sunt ut? A aliquam aliquid aperiam aut cumque deleniti eum in ipsam labore magni, nostrum odio placeat porro
+        possimus quae qui, quibusdam tempora velit veniam voluptates? Consequatur culpa deleniti, eveniet impedit in
+        molestias pariatur provident rerum voluptatum. Aliquam asperiores dolores enim laborum magnam magni mollitia,
+        neque, quisquam recusandae reiciendis repellendus totam! Ad consequuntur dolore incidunt maiores necessitatibus
+        odio, officiis vitae? Animi consequatur culpa deserunt dicta dolor dolores ducimus eius eos, error eveniet
+        excepturi fuga, fugiat ipsam labore magnam modi nihil nobis non nostrum odit officia optio perferendis provident
+        quaerat qui quia quibusdam quis quisquam quod repellat soluta, temporibus unde vitae. Commodi, cupiditate,
+        distinctio? Ad animi assumenda, consequatur dicta dolores error ex, impedit iure labore libero magnam molestiae
+        officia officiis porro quam quis sapiente tenetur unde voluptas voluptate. Accusamus accusantium ad animi
+        asperiores culpa cum cumque debitis dolor dolores doloribus earum excepturi expedita facere, fugiat impedit
+        incidunt iste labore magni maxime mollitia neque nobis nulla numquam odio optio perspiciatis quae quis quisquam
+        recusandae repellendus sint soluta sunt voluptas! Aliquid beatae deleniti deserunt eius, facere minima
+        necessitatibus, neque ratione repudiandae sapiente vel velit. Aliquam corporis dignissimos eum hic illo in
+        ipsam, laborum porro provident tempora totam ut voluptatibus. Ad eum laboriosam magnam non provident ratione
+        repellat, repellendus voluptatem? Amet, atque commodi dolorem fugiat laudantium molestias nam officia omnis
+        soluta vero? Consequuntur eum illum incidunt libero odio perferendis possimus praesentium reprehenderit sequi!
+        Atque beatae cumque delectus distinctio dolore dolorem dolores, ducimus eaque eius eligendi error eum ex, fugiat
+        fugit iusto minima molestias nobis provident repellat tempora veniam vero voluptate voluptatem? Accusamus
+        aliquam animi, commodi eaque enim exercitationem fugiat magni molestiae non officiis perferendis quibusdam
+        quidem quos ratione repudiandae veritatis voluptas. Ducimus, earum incidunt maxime nostrum quos sit veritatis.
+    </p>
+</section>
 
 <!-- Bundle JS Bootstrap avec Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

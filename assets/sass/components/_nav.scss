@@ -1,0 +1,19 @@
+#app-nav {
+  padding: 0 1*$default-font-size;
+  background-color: $blue-500;
+  color: rgba(255, 255, 255, 0.8);
+
+  .nav-item {
+    .nav-link {
+      padding: $default-font-size;
+      text-transform: capitalize;
+      font-family: $default-font-family;
+      font-weight: 300;
+
+      &:hover {
+        background-color: $blue-300;
+        color: white;
+      }
+    }
+  }
+}

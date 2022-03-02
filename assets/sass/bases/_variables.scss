@@ -1,0 +1,23 @@
+@import "../../bootstrap/scss/functions";
+@import "../../bootstrap/scss/variables";
+
+$color-grey-dark-1: $gray-600;
+$color-grey-dark-2: $gray-700;
+$color-grey-dark-3: $gray-800;
+
+$color-teal-dark-1: $teal-600;
+$color-teal-dark-2: $teal-700;
+$color-teal-dark-3: $teal-800;
+
+$color-green-dark-1: $green-600;
+$color-green-dark-2: $green-700;
+$color-green-dark-3: $green-800;
+
+$default-bg-gradiant: linear-gradient(to left bottom, rgba($color-green-dark-3, .2), rgba($color-green-dark-1, .8));
+
+$default-color: $gray-900;
+$default-font-size: 1.6rem;
+
+$default-font-family: 'Roboto Serif', sans-serif;
+$font-family-1: 'Bungee Inline', cursive;
+

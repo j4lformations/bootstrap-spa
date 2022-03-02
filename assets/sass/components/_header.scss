@@ -1,0 +1,55 @@
+#app-header, #app-carousel {
+  position: relative;
+  width: 100%;
+}
+
+#app-header {
+  height: 70vh;
+}
+
+#app-carousel {
+  height: 100%;
+
+  .carousel-inner {
+    all: inherit;
+
+    .carousel-item {
+      height: inherit;
+
+      &__1, &__2, &__3 {
+        all: inherit;
+        background-size: cover;
+        background-position: bottom;
+      }
+
+      &__1 {
+        background-image: $default-bg-gradiant, url(../images/sliders/1.jpg);
+      }
+
+      &__2 {
+        background-image: $default-bg-gradiant, url(../images/sliders/2.jpg);
+      }
+
+      &__3 {
+        background-image: $default-bg-gradiant, url(../images/sliders/3.jpg);
+      }
+
+      .carousel-caption {
+        position: absolute;
+        top: 40%;
+      }
+
+      &--title {
+        font-family: $font-family-1;
+        font-size: 4*$default-font-size;
+        animation: gaucheVersDroite 5s ease-in-out 0s 1 normal forwards;
+      }
+
+      &--sub-title {
+        font-size: 1.5*$default-font-size;
+        text-transform: uppercase;
+        animation: basVersHaut 5s ease-in-out 0s 1 normal forwards;
+      }
+    }
+  }
+}
