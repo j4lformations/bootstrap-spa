@@ -1,9 +1,14 @@
 #portfolio {
-  margin: 3*$default-font-size  1*$default-font-size ;
+
   .portfolio {
     &__img {
+      visibility: visible;
+      animation-duration: 2000ms;
+      animation-delay: 0s;
+      animation-name: fadeInLeftBig;
+
       img {
-        transition: all .8s ease-in-out;
+        transition: all .6s ease-in-out;
 
         &:hover {
           transform: scale(1.2) rotate(-5deg);

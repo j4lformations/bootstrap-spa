@@ -1,32 +1,75 @@
-#equipe{
+#equipe {
   margin-top: 2*$default-font-size;
   margin-bottom: 2*$default-font-size;
 
   .row {
     margin-top: 3*$default-font-size;
-    margin-bottom: 3*$default-font-size;
+    margin-bottom: 2*$default-font-size;
   }
-
-  position: relative;
 
   .card {
     border: none;
     border-radius: 0;
-  }
 
-  .card-title {
-    font-weight: 500;
-    font-size: 1.5*$default-font-size;
-    text-transform: capitalize;
-  }
-  .card-job {
-    font-weight: 300;
-    font-size: 1*$default-font-size;
-    text-transform: capitalize;
-  }
+    visibility: visible;
+    animation-duration: 1.8s;
+    animation-delay: 0.5ms;
+    animation-name: flipInY;
 
-  .card-text {
-    text-align: justify;
-    padding: 1*$default-font-size;
+    &:hover {
+      i:hover {
+        transition: all .2s ease-in-out;
+        transform: scale(1.3);
+      }
+
+      .facebook {
+        color: $blue-800;
+      }
+
+      .twitter {
+        color: $cyan-500;
+      }
+
+      .linkedin {
+        color: $blue-400;
+      }
+
+      .dribbble {
+        color: $pink-500;
+      }
+
+      .rss {
+        color: $orange-500;
+      }
+    }
+
+    .card-title {
+      font-weight: 500;
+      font-size: 1.5*$default-font-size;
+      text-transform: capitalize;
+    }
+
+    .card-job {
+      font-weight: 300;
+      font-size: 1*$default-font-size;
+      text-transform: capitalize;
+    }
+
+    .card-text {
+      text-align: justify;
+      padding: 1*$default-font-size;
+    }
+
+    .res-social {
+      font-size: 2.5*$default-font-size;
+    }
+
+    a {
+      color: rgba($color-grey-dark-1, .3);
+      text-decoration: none;
+      transition: all .8s ease-in-out;
+    }
   }
 }
+
+
