@@ -384,3 +384,31 @@ body {
   font-weight: 500;
   text-transform: uppercase;
 }
+
+#contact {
+  position: relative;
+  height: 90vh;
+  background-image: url(../images/contact-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top: 4rem;
+}
+#contact .row:nth-child(2) .form-control {
+  background-color: transparent;
+  border-radius: 0;
+  font-size: 1.44rem;
+}
+#contact .row:nth-child(2) .form-input {
+  padding: 1.6rem;
+}
+#contact .contact_details {
+  text-align: justify;
+}
+#contact .btn {
+  width: 100%;
+  padding: 1.76rem;
+  font-size: 1.6rem;
+  border-radius: 0;
+  text-transform: capitalize;
+}

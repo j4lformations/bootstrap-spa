@@ -1,0 +1,35 @@
+#contact {
+  position: relative;
+  height: 90vh;
+  background-image: url(../images/contact-bg.jpg);
+  background-size: cover;
+  background-position: bottom;
+  background-attachment: fixed;
+  padding-top: 2.5*$default-font-size;
+
+  .row:nth-child(2) {
+
+    .form-control {
+      background-color: transparent;
+      border-radius: 0;
+      font-size: .9*$default-font-size;
+
+    }
+
+    .form-input {
+      padding: 1*$default-font-size;
+    }
+  }
+
+  .contact_details {
+    text-align: justify;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 1.1*$default-font-size;
+    font-size: 1*$default-font-size;
+    border-radius: 0;
+    text-transform: capitalize;
+  }
+}
