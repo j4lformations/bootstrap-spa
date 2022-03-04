@@ -439,7 +439,6 @@ body {
 
 #contact {
     position: relative;
-    height: 90vh;
     background-image: url(../images/contact-bg.jpg);
     background-size: cover;
     background-position: bottom;
