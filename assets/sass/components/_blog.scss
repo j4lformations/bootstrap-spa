@@ -1,3 +1,27 @@
 #blog {
-  position: relative;
+
+  .card {
+    border: none;
+  }
+
+  .card-body {
+    text-align: justify;
+    padding: 1.5*$default-font-size .5*$default-font-size;
+
+    div:nth-child(1) {
+      font-size: 1.05*$default-font-size;
+      font-weight: 300;
+      color: #028fcc;
+    }
+
+    div:last-child {
+      font-size: .9*$default-font-size;
+    }
+
+    p {
+      font-size: .9*$default-font-size;
+      font-weight: 500;
+      text-transform: uppercase;
+    }
+  }
 }
